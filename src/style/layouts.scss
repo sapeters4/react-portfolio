@@ -1,0 +1,111 @@
+
+@media (max-width:950px){
+
+    .container {
+        flex-direction: column;
+
+    }
+
+    .left-column {
+        width: 100%;
+    }
+
+    .right-column {
+        width: 50%;
+        margin: 0;
+        margin-top: -130px;
+    }
+  
+}
+
+
+.content-page-wrapper {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: calc(100vh - 84px);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fddcc356;
+
+    .container {
+        width: 90%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-column {
+        width: 70%;
+        height: 600px;
+        margin-top: 20px;
+
+    }
+
+
+    .right-column {
+        width: 50%;
+        min-height: 400px;
+        background-color: #2f3d3c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        border-radius: 8px;
+        color: white;
+        margin-left: -30px;
+
+        .contact-bullet-points {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 21px;
+
+            .bullet-point-group {
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    font-size: 2em;
+                    color: white;
+                }
+
+                .text {
+                    font-size: 1.5em;
+                    font-weight: 900;
+                    margin-left: 21px;
+                }
+            }
+        }
+
+    }
+
+    .right-column h1{
+        font-size: 50px;
+        font-weight: lighter;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-column p{
+        margin: 20px 0;
+        font-weight: 500;
+    }
+
+    .right-column a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        background-color: white;
+        color: black;
+        padding: 15px 20px 0 20px;
+        display: inline-block;
+        letter-spacing: 2px;
+    }
+
+  
+}
+
