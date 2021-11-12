@@ -84,7 +84,7 @@ export default class BlogDetail extends Component {
       } else {
         return (
           <div className="content-container">
-            <h1 onClick={this.handleEditClick}>{title}</h1>
+            <h1 className="title" onClick={this.handleEditClick}>{title}</h1>
 
             <BlogFeaturedImage img={featured_image_url} />
 
