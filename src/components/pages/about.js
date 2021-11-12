@@ -22,7 +22,7 @@ export default function() {
             obcaecati totam temporibus aspernatur, laboriosam ut,  ratione sint impedit sunt voluptate voluptatibus corrupti 
             eum pariatur nemo! Saepe enim commodi atque fugiat exercitationem sed quae, laborum a, quibusdam rerum laudantium delectus non unde. Debitis?
           </p>
-          <a href="#" class="btn">Click Me</a>
+
         </div>
       </div>
     </div>
