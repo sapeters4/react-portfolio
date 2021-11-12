@@ -10,7 +10,7 @@ export default function() {
           background: "url(" + profilePicture + ") no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          borderRadius: "8px",
+          borderRadius: "8px"
         }} 
 
       />
